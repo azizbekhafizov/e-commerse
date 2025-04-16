@@ -8,14 +8,7 @@ fetch(BESTuRL)
     displayProducts(allProducts);
   });
 
-document.getElementById('searchInput')?.addEventListener('input', (e) => {
-  const searchTerm = e.target.value.toLowerCase();
-  const filtered = allProducts.filter(product =>
-    product.title.toLowerCase().includes(searchTerm) ||
-    product.description.toLowerCase().includes(searchTerm)
-  );
-  displayProducts(filtered);
-});
+
 
 function displayProducts(products) {
   const productList = document.getElementById('productList');
@@ -99,3 +92,4 @@ if (window.location.pathname.includes('korzinka.html')) {
 
   renderCart();
 }
+
