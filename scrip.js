@@ -20,7 +20,7 @@ function displayProducts(products) {
     card.innerHTML = `
       <img src="${product.thumbnail}" alt="${product.title}" />
       <h3>${product.title}</h3>
-      <p>${product.description.substring(0, 60)}...</p>
+      <p>${product.description.substring(0, 60)}</p>
       <div class="price">$${product.price}</div>
       <div class="actions">
         <button class="add-btn" onclick='addToCart(${JSON.stringify(product)})'>Add to Cart</button>
