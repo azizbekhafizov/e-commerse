@@ -43,7 +43,6 @@
     border-radius: 15px;
     padding: 15px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    position: relative;
     transition: transform 0.3s ease;
   }
   .product:hover {
@@ -80,27 +79,20 @@
     border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
   }
   .edit-btn {
     background: #ff9800;
     color: white;
   }
-  .edit-btn:hover {
-    background: #e68900;
-  }
+
   .delete-btn {
     background: #f44336;
     color: white;
   }
-  .delete-btn:hover {
-    background: #d32f2f;
-  }
+
   .add-btn {
     background: #4caf50;
     color: white;
     width: 100%;
-  }
-  .add-btn:hover {
-    background: #45a049;
   }
